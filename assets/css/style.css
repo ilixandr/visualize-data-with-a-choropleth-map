@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Titillium+Web');
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh
+}
+.main {
+  background: #D9D9D9
+}  
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}  
+h1#title {
+  font-weight: 900;
+  font-family: 'Playfair Display', serif
+}  
+h2#description {
+  font-weight: 500;
+  font-family: 'Titillium Web', serif;
+  margin-top: -20px
+}
+#tooltip {
+  position: absolute;
+  background: #26282C;
+  color: white;
+  padding: 5px;
+  border-radius: 3px
+}  
+#canvas {
+  padding: 25px
+}
+#legend {
+  margin-top: -100px;
+  padding-bottom: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+.county-borders {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 0.5px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  pointer-events: none
+}
